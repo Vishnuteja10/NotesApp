@@ -1,0 +1,205 @@
+
+.outerDiv{
+    width: 70vw;
+    height: 100vh;
+}
+
+.notesHeading{
+    margin-top: 0px;
+    width: 70vw;
+    height: 8vh;
+    background-color: #E8E8E8;
+    align-items: center;
+    display: flex;
+}
+
+.notesBlock{
+    width: 70vw;
+    height: 70vh;
+    background-color: #F7ECDC;
+    overflow:scroll;
+}
+
+.eachNotes{
+    transform: translateY(3vh);
+    margin-top: 5vh;
+    padding: 5px;
+    display: flex;
+    width: 68vw;
+    height: 15vh;
+    background-color: #F7ECDC;
+}
+
+.date{
+    margin-left: 10px;
+    width: 10vw;
+    background-color: #F7ECDC;
+}
+
+.data{
+    margin-left: 2vw;
+    padding-right: 10px;
+    margin-top: 16px;
+   width: 55vw;
+   background-color: #F7ECDC;
+}
+
+.inputText{
+    width: 70vw;
+    height: 22vh;
+    background-color: #E8E8E8;
+    position: relative;
+}
+
+.input{
+   transform: translateY(8px);
+   margin-left: 10px;
+    width: 68vw;
+    height: 18vh;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: none;
+    box-sizing: none;
+}
+
+.sendBtn{
+    position: absolute;
+    left: 66vw;
+    top: 15vh;
+    width: 3vw;
+    height: 4vh;
+    border-style: none;
+}
+
+
+
+.notesLogo{
+    width: 5vw;
+    height: 7vh;
+    margin-left: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notesShortName{
+    font-size: 20px ;
+    color: white;
+}
+.notesName{
+    width: 13vw;
+    height: 5vh;
+    margin-left: 15px;
+    font-size: 20px;
+    
+    background-color: #E8E8E8;
+   
+}
+
+.bb{
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+
+ .eachNotesR{
+   position: relative;
+ }
+
+ .inputTextR{
+    position: relative;
+ }
+ 
+ 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none; 
+  }
+
+
+@media (min-width:240px) and (max-width:900px){
+.revertB{
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+ }
+
+ .inputText{
+    width: 100vw;
+ }
+
+ .input{
+    width: 90vw;
+ }
+
+ .sendBtn{
+    left:80vw
+ }
+
+ .eachNotes{
+    width: 100vw;
+ }
+
+ .outerDiv{
+    width: 100vw;
+ }
+
+ .notesHeading{
+    width: 100vw;
+ }
+
+ .data{
+    width: 100vw;
+ }
+ 
+ .date{
+    width: auto;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+ }
+
+ .notesBlock{
+    width: 100vw;
+ }
+
+ .outerDivN{
+    display: none;
+}
+
+.notesHeadingN{
+    display: none;
+}
+
+.revertBN{
+    display: none;
+}
+
+.notesLogoN{
+    display: none;
+}
+
+.notesShortNameN{
+    display: none;
+}
+
+.notesNameN{
+    display: none;
+}
+
+.notesBlockN{
+    display: none;
+}
+
+.notesHeading{
+   width: auto;
+}
+
+}

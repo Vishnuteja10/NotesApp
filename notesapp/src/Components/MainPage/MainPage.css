@@ -1,0 +1,207 @@
+
+.main{
+    display: flex;
+    
+
+}
+
+.leftBlock{
+   width: 30vw;
+   height: 100vh;
+   background-color: white; 
+   overflow:scroll;
+}
+
+.notesCard{
+   margin-left: 25vw;
+}
+
+.appName{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.createNotesBtn{
+   margin-left: 20px;
+   height: 35px;
+   width: 20vw;
+   font-size: 18px;
+   border-radius: 40px;
+   background-color: black;
+   color: white;
+}
+
+.rightBlock{
+   width: 70vw;
+   height: 100vh;
+   background-color: #F7ECDC;
+}
+
+.notesList{
+    
+}
+
+.rightBlockMain{
+   margin-top: 100px;
+   margin-left: 10vw;
+}
+
+.pktNotes{
+   margin-left: 15vw;
+   font-size: 25px;
+}
+
+.mainTxt{
+   margin-top: -10px;
+   margin-left: 2vw;
+   font-size: 20px;
+}
+
+.footerBox{
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   margin-left: 15vw;
+}
+
+.lockImg{
+   width: 15px;
+   height: 15px;
+}
+
+.ete{
+   margin-left: 3px;
+}
+
+
+.bb{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   pointer-events: none; 
+ }
+
+ 
+
+.notes{
+   margin-top: 20px;
+   margin-left: 20px;
+   width: 28vw;
+   height: 8vh;
+   background-color: white;
+   align-items: center;
+   display: flex;
+}
+
+.notesLogo{
+   width: 5vw;
+   height: 7vh;
+   background-color: blueviolet;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.notesShortName{
+   font-size: 20px ;
+   /* color: white; */
+}
+
+.notesName{
+   width: 13vw;
+   height: 5vh;
+   margin-left: 6px;
+   font-size: 15px;
+   background-color: white;
+  
+}
+
+@media (min-width:240px) and (max-width:800px){
+
+   .main{
+      display: inline-block;
+   }
+
+   .mainN{
+      /* display: none; */
+   }
+
+   .leftBlock{
+      width: 100vw;
+      height: 100vh;
+      overflow: scroll;
+      /* display: none; */
+   }
+
+   .createNotesBtn{
+      width:auto;
+      /* display: none; */
+   }
+
+   .notesList{
+      width: auto;
+      flex:1 1 auto;
+   }
+
+   .notesLogo{
+      width: auto;
+      flex:1 1 auto;
+   }
+
+   .notesName{
+      width: auto;
+      flex:1 1 auto;
+   }
+   
+   .notesCard{
+      margin-left: 3vw;
+      flex:1 1 auto;
+   }
+    
+   .leftBlockN{
+      display: none;
+   }
+   
+   .appNameN{
+      display: none;
+   }
+   
+   .createNotesBtnN{
+      display: none;
+   }
+   
+   .notesListN{
+      display: none;
+   }
+   
+   .leftBlockB{
+      display: block;
+   }
+   
+   .appNameB{
+      display: block;
+   }
+   
+   .createNotesBtnB{
+      display: block;
+   }
+   
+   .notesListB{
+      display: block;
+   }
+
+   .rightBlockMainN{
+      display: none;
+   }
+   .rightBlockN{
+      display: none;
+   }
+}

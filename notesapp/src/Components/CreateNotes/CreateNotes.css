@@ -1,0 +1,124 @@
+
+.createNotes{
+    width: 40vw;
+    height:26vh;
+    background-color: #FFFFFF;
+}
+
+.createNewNotes{
+    transform: translateY(8px);
+    margin-left: 8px;
+}
+
+.grpNameBox{
+    display: flex;
+}
+
+.grpName{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.ip{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 20px;
+    width: 20vw;
+}
+
+.setColor{
+    margin-top: 20px;
+    display: flex;
+}
+
+.chooseColor{
+    margin-left: 15px;
+}
+
+.colors{
+    margin-left: 20px;
+}
+
+.colors{
+    display: flex;
+}
+
+.c1{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #B38BFA;
+}
+
+.c2{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF79F2;
+}
+
+.c3{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #43E6FC;
+}
+
+.c4{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F19576;
+}
+
+.c5{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0047FF;
+}
+
+.c6{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6691FF;
+}
+
+.createBtn{
+    margin-top: 25px;
+    margin-left: 30vw;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+@media (min-width:240px) and (max-width:653px){
+
+    .createNotes{
+        width: auto;
+        height:auto;
+        margin-left: auto;
+        flex: "1 1 auto";
+    }
+
+    .createBtn{
+        margin-left: 20vw;
+        width: auto;
+        flex: "1 1 auto";
+    }
+
+    .ip{
+        width: auto;
+        flex:"1 1 auto";
+    }
+}
